@@ -52,7 +52,7 @@ void loop() {
       startstate = analogRead(A0);
     }
 
-    // timberman cutts around the left side of the branches.
+    // timberman cutts around the right side of the branches.
     int theswitch = Buffer[2];
     if (Buffer[3] == 1 && Buffer[2] == 0) {
       theswitch = 1;
