@@ -3,10 +3,11 @@
 
  A simple programm for Arduino that plays Timberman.
 
- Circuit:
- * Relays attached to tip120 attached to pins 4 and 8
- * Optical Sensor attached to A0
- * Button attached to pin 7
+Circuit:
+
+ * JZC-11F RELAYS attached to TIP120 attached to pins 4 and 8
+ * OP580DA PHOTODARLINGTON NPN attached to A0
+ * BUTTON attached to pin 7
 
  created July 23th 1014
  by Valentin Heun
