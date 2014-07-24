@@ -8,7 +8,7 @@
  * Optical Sensor attached to A0
  * Button attached to pin 7
 
- created July 23 1014
+ created July 23th 1014
  by Valentin Heun
  */
 
@@ -36,7 +36,9 @@ void loop() {
     // read a couple of frames and determan if a branch had crossed the sensor
     Buffer[0] = 0;
     for (int i = 0; i <= timing; i++) {
-      delay(5);
+      delay(4);
+      delayMicroseconds(690);
+      
       int analog = analogRead(A0);
       if ((analog > startstate + 3) || (analog < startstate - 3)) {
         Buffer[0]  = 1;
@@ -64,6 +66,7 @@ void loop() {
       digitalWrite(right, HIGH);
     }
     delay(38);
+     
   }
   else {
     // if switched off, set everything back to zero
