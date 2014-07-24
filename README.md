@@ -11,5 +11,10 @@ Circuit:
 * OP580DA PHOTODARLINGTON NPN attached to A0
 * BUTTON attached to pin 7
 
+
+![Alt text](timb.png?raw=true "circuit")
+
+
 created July 23 1014
 by Valentin Heun
+
