@@ -12,7 +12,7 @@ Circuit:
 * BUTTON attached to pin 7
 
 
-![Alt text](timb.png?raw=true "circuit")
+![Alt text](timb.png "circuit")
 
 
 created July 23 1014
