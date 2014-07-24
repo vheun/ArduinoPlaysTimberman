@@ -2,6 +2,7 @@ ArduinoPlaysTimberman
 =====================
 
 A simple programm for Arduino that plays Timberman.
+Arduino High Score: 2417
 
 Demo:
 https://vimeo.com/101571060
