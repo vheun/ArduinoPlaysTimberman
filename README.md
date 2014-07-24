@@ -13,6 +13,10 @@ Components used:
 * BUTTON attached to pin 7
 * All resistors are 1K Ohm
 
+Setup:
+
+Possition the PhotoDarlington on the right side on top of the background tree where the 3th leave possition would stop.
+
 Circuit (components look different):
 
 

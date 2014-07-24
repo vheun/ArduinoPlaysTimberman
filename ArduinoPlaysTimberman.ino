@@ -4,7 +4,6 @@
  A simple programm for Arduino that plays Timberman.
 
 Circuit:
-
  * JZC-11F RELAYS attached to TIP120 attached to pins 4 and 8
  * OP580DA PHOTODARLINGTON NPN attached to A0
  * BUTTON attached to pin 7
@@ -38,10 +37,10 @@ void loop() {
     Buffer[0] = 0;
     for (int i = 0; i <= timing; i++) {
       delay(4);
-      delayMicroseconds(690);
+      //delayMicroseconds(200);
       
       int analog = analogRead(A0);
-      if ((analog > startstate + 3) || (analog < startstate - 3)) {
+      if ((analog > startstate + 5) || (analog < startstate - 5)) {
         Buffer[0]  = 1;
       }
     }
@@ -54,8 +53,8 @@ void loop() {
     }
 
     // timberman cutts around the right side of the branches.
-    int theswitch = Buffer[2];
-    if (Buffer[3] == 1 && Buffer[2] == 0) {
+    int theswitch = Buffer[1];
+    if (Buffer[2] == 1 && Buffer[1] == 0) {
       theswitch = 1;
     }
 
