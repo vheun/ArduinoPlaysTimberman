@@ -25,6 +25,6 @@ Circuit (components look different):
 ![Alt text](timb.png "circuit")
 
 
-created July 23th 1014
+created July 23th 2014
 by Valentin Heun
 
